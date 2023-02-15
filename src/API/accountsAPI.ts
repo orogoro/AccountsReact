@@ -2,7 +2,7 @@ import axios from "axios";
 
 import { accountsTypes } from "../types";
 
-export const BASEURL = "http://localhost:4000/api/accounts";
+export const BASEURL = "https://accountsnode.onrender.com/api/accounts";
 
 export const accounts = axios.create({
   baseURL: `${BASEURL}`,
