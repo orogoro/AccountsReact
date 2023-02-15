@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTable {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  background-color: $primaryGrayColor;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 2px solid $lightColor;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  width: 170px;
+  color: $textColor;
+
+  &:first-child {
+    width: 50px;
+  }
+
+  &:nth-child(2) {
+    width: 100px;
+    // margin-left: 10px;
+  }
+
+  &:nth-child(4) {
+    width: 110px;
+    margin-left: 30px;
+  }
+}
